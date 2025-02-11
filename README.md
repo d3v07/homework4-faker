@@ -8,6 +8,6 @@
 
 2) Interactive REPL interface
 
-3)Best coding practices (DRY principle)
+3) Best coding practices (DRY principle)
 
 4) Error handling and unit testing
