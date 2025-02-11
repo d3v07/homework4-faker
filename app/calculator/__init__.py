@@ -73,3 +73,5 @@ class Calculator:
     def clear_history():
         Calculator.history_log.clear()
         print("History has been erased.")
+
+"""modifying to check workflow"""
