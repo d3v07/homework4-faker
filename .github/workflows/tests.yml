@@ -3,10 +3,10 @@ name: Run Tests on Push or Pull Request to Main
 on:
   push:
     branches:
-      - main  
+      - main  # Run tests on any push to the main branch
   pull_request:
     branches:
-      - main  
+      - main  # Run tests on any pull request to the main branch
 
 jobs:
   test:
@@ -19,8 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'  # Set your desired Python version
-
+          python-version: '3.12'  
       - name: Install dependencies from requirements.txt
         run: |
           python -m pip install --upgrade pip
