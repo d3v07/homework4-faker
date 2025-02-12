@@ -16,4 +16,4 @@ class Operations:
      if y == 0:
         raise ZeroDivisionError("Math error: Division by zero is not allowed")
      return x / y
-"""modifying to check workflow and coverage"""
+"""modifying to check auto workflow check and coverage"""

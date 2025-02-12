@@ -74,4 +74,4 @@ class Calculator:
         Calculator.history_log.clear()
         print("History has been erased.")
 
-"""modifying to check workflow"""
+"""modifying to check auto workflow check and coverage"""
