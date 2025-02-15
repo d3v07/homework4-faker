@@ -29,3 +29,9 @@ jobs:
       - name: Run tests with pytest and enforce 100% coverage
         run: |
           pytest --cov=app --cov-fail-under=100
+      
+      - name: Run linting with pylint
+        run: |
+          pip install pylint pytest-pylint
+          pytest --pylint 
+
