@@ -1,4 +1,6 @@
-"""Test cases for Calculator's REPL functionality."""
+"""
+Test cases for Calculator's REPL functionality.
+"""
 import sys
 from io import StringIO
 from app.calculator import Calculator
