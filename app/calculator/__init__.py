@@ -1,3 +1,6 @@
+"""
+This module contains the REPL calculator class.
+"""
 from app.operations import Operations
 
 class Calculator:
