@@ -1,3 +1,6 @@
+"""
+This module contains the Operations class which performs basic arithmetic operations
+"""
 class Operations:
     @staticmethod
     def add(x, y):
