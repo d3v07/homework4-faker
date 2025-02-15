@@ -12,3 +12,7 @@
 
 4) Error handling and unit testing
 
+5) Faker library for generating test data 
+
+Added faker to the existing project.
+
