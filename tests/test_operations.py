@@ -1,3 +1,5 @@
+"""Unit tests for the Operations class in the calculator module."""
+
 import pytest
 from app.operations import Operations
 
@@ -12,6 +14,7 @@ from app.operations import Operations
     ]
 )
 def test_addition(a, b, expected):
+    """Tests addition operation."""
     assert Operations.add(a, b) == expected
 
 
@@ -25,6 +28,7 @@ def test_addition(a, b, expected):
     ]
 )
 def test_subtraction(a, b, expected):
+    """Tests subtraction operation."""
     assert Operations.subtract(a, b) == expected
 
 
@@ -38,6 +42,7 @@ def test_subtraction(a, b, expected):
     ]
 )
 def test_multiplication(a, b, expected):
+    """Tests multiplication operation."""
     assert Operations.multiply(a, b) == expected
 
 
@@ -50,9 +55,11 @@ def test_multiplication(a, b, expected):
     ]
 )
 def test_division(a, b, expected):
+    """Tests division operation."""
     assert Operations.divide(a, b) == expected
 
 
 def test_division_by_zero():
+    """Ensures division by zero raises the expected error."""
     with pytest.raises(ZeroDivisionError, match="Math error: Division by zero is not allowed"):
         Operations.divide(5, 0)
