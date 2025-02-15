@@ -1,4 +1,6 @@
-"""Unit tests for the Operations class in the calculator module."""
+"""
+Unit tests for the Operations class in the calculator module.
+"""
 
 import pytest
 from app.operations import Operations
