@@ -1,4 +1,6 @@
-"""Pytest configuration and fixtures for testing Calculator and Operations."""
+"""
+Pytest configuration and fixtures for testing Calculator and Operations.
+"""
 
 import sys
 from io import StringIO
