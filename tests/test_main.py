@@ -10,7 +10,7 @@ from main import calculation
     ("10", "2", 'subtract', "Computed result: 10 subtract 2 = 8.0"),
     ("4", "5", 'multiply', "Computed result: 4 multiply 5 = 20.0"),
     ("20", "4", 'divide', "Computed result: 20 divide 4 = 5.0"),
-    ("1", "0", 'divide', "Math Error: You cannot divide by zero."),
+    ("1", "0", 'divide', "Math Error: Division by zero is not allowed."),
     ("9", "3", 'unknown', "Error: Unsupported operation 'unknown'"),
     ("a", "3", 'add', "Invalid input: 'a' or '3' is not a valid number."),
     ("5", "b", 'subtract', "Invalid input: '5' or 'b' is not a valid number.")
