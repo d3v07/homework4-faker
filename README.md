@@ -14,5 +14,5 @@
 
 5) Faker library for generating test data 
 
-Added faker to the existing project.
+6) CLI calculator with multiple tests
 
